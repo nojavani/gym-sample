@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lux Fitness Gym</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <a href="/" class="navbar__logo">Lux</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="navbar__menu">
+            <a href="/" class="navbar__link">Home</a>
+            <a href="/services.html" class="navbar__link">Services</a>
+            <a href="/plans.html" class="navbar__link">Plans</a>
+            <a href="/trainers.html" class="navbar__link">Trainers</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Lux Fitness</h1>
+        <p>Join Now for $29</p>
+        <a href="/" class="button">Get Started</a>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services">
+        <div class="services__container">
+            <div>
+                <p class="topline">Features</p>
+                <h1 class="services__heading">What we offer</h1>
+                <div class="services__features">
+                    <p class="services__feature">
+                        <i class="fas fa-check-circle"></i>Group Fitness Classes
+                    </p>
+                    <p class="services__feature">
+                        <i class="fas fa-check-circle"></i>Personal Trainer Sessions
+                    </p>
+                    <p class="services__feature">
+                        <i class="fas fa-check-circle"></i>Indoor Pool
+                    </p>
+                    <p class="services__feature">
+                        <i class="fas fa-check-circle"></i>Stean Room and Sauna
+                    </p>
+                    <p class="services__feature">
+                        <i class="fas fa-check-circle"></i>Basketball Court
+                    </p>
+                    <p class="services__feature">
+                        <i class="fas fa-check-circle"></i>Open 24/7
+                    </p>
+                </div>
+            </div>
+            <div>
+                <img src="./images/gym-2.jpg" alt="gym" class="services__img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Membership Section -->
+    <div class="membership">
+        <h1>View Our Plans</h1>
+        <p class="membership__desc">
+            Get stared today and receive 25% off your first month
+        </p>
+        <div class="membership__wrapper">
+            <div class="membership__card">
+                <div class="membership__title">
+                    <i class="fas fa-dumbbell card-icon"></i>
+                    <h3>Starter</h3>
+                </div>
+                <div class="membership__perks">
+                    <p>Get access to the entire gym</p>
+                    <p>$29 per month</p>
+                </div>
+                <a href="/" class="button">Sign Up</a>
+            </div>
+            <div class="membership__card">
+                <div class="membership__title">
+                    <i class="fas fa-bicycle card-icon"></i>
+                    <h3>Silver</h3>
+                </div>
+                <div class="membership__perks">
+                    <p>Get access to the entire gym</p>
+                    <p>Group Fitness Classes</p>
+                    <p>$49 per month</p>
+                </div>
+                <a href="/" class="button">Sign Up</a>
+            </div>
+            <div class="membership__card">
+                <div class="membership__title">
+                    <i class="fas fa-bicycle card-icon"></i>
+                    <h3>Golod</h3>
+                </div>
+                <div class="membership__perks">
+                    <p>Get access to the entire gym</p>
+                    <p>Group Fitness Classes</p>
+                    <p>Private Personal Training</p>
+                    <p>$99 per month</p>
+                </div>
+                <a href="/" class="button">Sign Up</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="team">
+        <div class="team__wrapper">
+            <div class="team__text">
+                <p class="topline">Private Coaching</p>
+                <h1>Meet Our Trainers</h1>
+                <p class="team__desc">
+                    All our personal trainers have over 30 years of experience combined.
+                    Each traner specializes in strength and mobility workouts.
+                </p>
+            </div>
+            <div class="team__text">
+                <p class="topline">Free Trial</p>
+                <h1>7 Day Trial</h1>
+                <p class="team__desc">
+                    You can work with each traner for up tol 7 days for free in order
+                    to see if they are a good fit for your goals.
+                </p>
+            </div>
+            <div class="team__card">
+                <p>Jess</p>
+                <img src="./images/person-1.jpg" alt="person" class="team__img">
+            </div>
+            <div class="team__card">
+                <p>Sarah</p>
+                <img src="./images/person-2.jpg" alt="person" class="team__img">
+            </div>
+            <div class="team__card">
+                <p>Kyle</p>
+                <img src="./images/person-3.jpg" alt="person" class="team__img">
+            </div>
+            <div class="team__card">
+                <p>James</p>
+                <img src="./images/person-4.jpg" alt="person" class="team__img">
+            </div>
+        </div>
+    </div>
+
+    <!-- Email Section -->
+    <div class="email">
+        <div class="email__content">
+            <h1>Get Access to Members Only Perks</h1>
+            <p>
+                sign up for our newsletter below to get $100 off your first personal
+                training session!
+            </p>
+            <form action="#">
+                <div class="form__wrap">
+                    <label for="email">
+                        <input type="email" placeholder="Enter your email" id="email">
+                    </label>
+                    <button class="button" type="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__desc">
+                <h1>LUX FITNESS</h1>
+                <p>Luxury fitness gym located in downtown Miami</p>
+                <p id="phone">305 - 123 -5467</p>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Contact Us</h2>
+                <a href="/services.html" class="footer__link">Contact</a> 
+                <a href="/services.html" class="footer__link">Support</a> 
+                <a href="/services.html" class="footer__link">Sponsorship</a> 
+            </div>
+        </div>
+        <div class="footer__wrapper">
+            <div class="footer__links">
+                <h2 class="footer__title">Memberships</h2>
+                <a href="/" class="footer__link">Pricing</a> 
+                <a href="/" class="footer__link">Plans</a> 
+                <a href="/" class="footer__link">FAQ</a> 
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Social Media</h2>
+                <a href="/" class="footer__link">Instagram</a> 
+                <a href="/" class="footer__link">Facebook</a> 
+                <a href="/" class="footer__link">Youtube</a> 
+                <a href="/" class="footer__link">Twitter</a> 
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
